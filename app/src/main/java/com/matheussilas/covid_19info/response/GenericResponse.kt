@@ -1,4 +1,4 @@
-package com.matheussilas.covid_19info
+package com.matheussilas.covid_19info.response
 
 import com.google.gson.annotations.SerializedName
 

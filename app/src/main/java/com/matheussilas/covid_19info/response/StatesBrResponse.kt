@@ -1,9 +1,9 @@
-package com.matheussilas.covid_19info
+package com.matheussilas.covid_19info.response
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class BrazilResponse(
+class StatesBrResponse(
     @SerializedName("uf")
     val state: String,
 
@@ -16,6 +16,9 @@ class BrazilResponse(
     val suspects: Int,
 
     @SerializedName("deaths")
-    val deaths: Int
+    val deaths: Int,
+
+    @SerializedName("refuses")
+    val refuses: Int
 
 )
